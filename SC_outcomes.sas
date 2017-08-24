@@ -4,7 +4,7 @@
 /*******************************************/
 %web_drop_table(WORK.sc_master);
 
-FILENAME REFFILE 'C:/Users/TaoWa/Desktop/SC_Analysis_File_FY_14-17_v03.csv';
+FILENAME REFFILE 'C:/Users/TaoWa/Desktop/second career/sc_master_full.csv';
 
 PROC IMPORT DATAFILE=REFFILE
 	DBMS=CSV
